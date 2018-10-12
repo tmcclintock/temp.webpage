@@ -32,7 +32,7 @@
  */
 
 html {
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: Palatino, Times, serif;
 }
 @media (min-width: 48em) {
   html {
@@ -54,6 +54,7 @@ html {
  */
 
 .sidebar {
+  font-family: Arial, Times, serif;
   text-align: center;
   padding: 2rem 1rem;
   color: rgba(255,255,255,.5);
@@ -79,7 +80,7 @@ html {
 .sidebar-about h1 {
   color: #fff;
   margin-top: 0;
-  font-family: "Abril Fatface", serif;
+  font-family: "Arial", serif;
   font-size: 3.25rem;
 }
 
@@ -246,5 +247,14 @@ a.sidebar-nav-item:focus {
 }
 .theme-base-0f .content a,
 .theme-base-0f .related-posts li a:hover {
+  color: #8f5536;
+}
+
+/* My test theme */
+.theme-base-test .sidebar {
+  background-color: #c02538;
+}
+.theme-base-test .content a,
+.theme-base-test .related-posts li a:hover {
   color: #8f5536;
 }
